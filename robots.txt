@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jhemming93.github.io/HR_Calc_App/sitemap.xml
