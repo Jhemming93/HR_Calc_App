@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111827"><meta name="description" content="Learn how Highrise Gold Lab calculates marketplace profit, direct-trade costs, break-even prices, target profit, and expected value."><title>How the calculator works · Highrise Gold Lab</title><link rel="stylesheet" href="site.css"></head>
-<body><main><div class="topbar"><a class="brand" href="index.html">✦ Highrise Gold Lab</a><div class="pill">Independent Highrise trading resource</div></div><nav class="site-nav" aria-label="Site navigation">
+<body><main><div class="topbar"><a class="brand" href="index.html">✦ Highrise Gold Lab</a><div class="pill">Independent Highrise trading resource</div></div><details class="site-menu">
+<summary>☰ Menu</summary>
+<nav class="site-nav" aria-label="Site navigation">
 <a href="index.html">Calculator</a>
 <a href="how-it-works.html" class="active">How it works</a>
 <a href="trading-guide.html">Trading guide</a>
@@ -10,6 +12,7 @@
 <a href="terms.html">Terms</a>
 <a href="contact.html">Contact</a>
 </nav>
+</details>
 <h1>How the calculator works</h1><p class="lede">Highrise Gold Lab turns the prices and probabilities you enter into a clearer estimate of profit, break-even points, and expected return. It does not pull live market data, so the quality of the result depends on the prices and odds you provide.</p>
 <div class="grid"><section class="card"><h2>Flip an item</h2><p>Enter what you paid, the price you think the item can realistically sell for, and how you plan to sell it. The calculator estimates what you receive after the selected fee and compares that with your cost.</p></section><section class="card"><h2>Grab odds</h2><p>Enter the cost of a spin, the displayed chance of each outcome, and a realistic resale value. The calculator weights each outcome by its probability to estimate the average return over many spins.</p></section><section class="card"><h2>Shop purchase</h2><p>Compare a fixed shop price with a possible later resale price. This can help you see the minimum resale value needed to break even or hit a target profit.</p></section><section class="card"><h2>Local saving</h2><p>Your settings can be saved in your browser using localStorage. They are not sent to a Highrise Gold Lab account or server.</p></section></div>
 <h2>Core calculations</h2><div class="table-wrap"><table class="data"><thead><tr><th>Result</th><th>Meaning</th></tr></thead><tbody><tr><td>Net proceeds</td><td>Sale price minus the seller-side fee selected in the calculator.</td></tr><tr><td>Profit</td><td>Net proceeds minus your acquisition cost.</td></tr><tr><td>Break-even sale price</td><td>The minimum sale price that would approximately recover your cost after the selected fee.</td></tr><tr><td>Maximum buy for target profit</td><td>The most you could pay while still reaching the target profit at the entered resale price.</td></tr><tr><td>Expected value</td><td>The probability-weighted average result across all entered Grab outcomes.</td></tr></tbody></table></div>
