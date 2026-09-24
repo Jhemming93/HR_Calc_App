@@ -2,6 +2,8 @@
 
 A small, independent calculator for estimating Highrise item flips, grab expected value, and outright shop purchases. Open `index.html` directly in a browser or publish this repository using GitHub Pages. No build step or external dependencies.
 
+An optional [Highrise trade offer bot](bot/README.md) can verify catalog items and search player-submitted offers. It runs separately from GitHub Pages and needs a room ID, bot token, and a running Python process.
+
 ## GitHub Pages
 
 Go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, then select **main** and **/(root)** and save. GitHub will show the live URL on that page after the deployment finishes.
